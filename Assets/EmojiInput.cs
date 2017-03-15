@@ -45,6 +45,8 @@ public class EmojiInput : MonoBehaviour
                 but.onClick.AddListener(() => 
                 {
                     Submit.Invoke("<sprite="+ item.id+">");
+                    Panel.gameObject.SetActive(false);
+
                 });
 
                 ele.SetActive(true);
@@ -58,4 +60,9 @@ public class EmojiInput : MonoBehaviour
 	}
 
     public InputField.SubmitEvent Submit;
+
+    public void OnOff()
+    {
+        Panel.gameObject.SetActive(!Panel.gameObject.activeSelf);
+    }
 }
