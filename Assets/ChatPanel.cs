@@ -4,6 +4,7 @@ using UnityEngine;
 using TMPro;
 using System;
 using UnityEngine.UI;
+using UnityEngine.EventSystems;
 
 public class ChatPanel : MonoBehaviour
 {
@@ -26,13 +27,16 @@ public class ChatPanel : MonoBehaviour
 
         group = TextRect.content.GetComponent<VerticalLayoutGroup>();
 
-
     }
 	
 	// Update is called once per frame
 	void Update () {
+        if (Input && Input.caretPosition != 0)
+        {
+            LogCaretPosition();
+        }
 
-	}
+    }
 
     public void InsertEmoji(string emoji)
     {
@@ -55,12 +59,15 @@ public class ChatPanel : MonoBehaviour
         {
             return;
         }
+
         ShowInputMySelf(input);
 
         if (autoClear)
         {
             ClearInputFeild();
         }
+
+        caretPosition = 0;
     }
 
     public void ClearInputFeild()
@@ -131,7 +138,7 @@ public class ChatPanel : MonoBehaviour
 
     public void LogCaretPosition()
     {
-        caretPosition = Input.selectionFocusPosition;
+        caretPosition = Input.stringPosition;
         Debug.Log(caretPosition);
     }
 
