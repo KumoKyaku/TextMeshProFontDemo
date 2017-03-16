@@ -41,6 +41,16 @@ public class ChatPanel : MonoBehaviour
     public void InsertEmoji(string emoji)
     {
         Input.text = Input.text.Insert(caretPosition, emoji);
+
+        EventSystem.current.SetSelectedGameObject(Input.gameObject);
+        
+        StartCoroutine(Set(3));
+    }
+
+    private IEnumerator Set(int v)
+    {
+        yield return new WaitForEndOfFrame();
+        Input.MoveTextEnd(true);
     }
 
     float ContentHeight = 0f;
@@ -139,7 +149,6 @@ public class ChatPanel : MonoBehaviour
     public void LogCaretPosition()
     {
         caretPosition = Input.stringPosition;
-        Debug.Log(caretPosition);
     }
 
     public void Test(int a)

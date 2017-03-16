@@ -3,3 +3,5 @@ Temp/
 .vs/TextMeshProFontDemo/v15/.suo
 TextMeshProFontDemo.csproj
 TextMeshProFontDemo.sln
+test_Data/
+test.exe
