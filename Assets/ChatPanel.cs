@@ -8,6 +8,8 @@ using UnityEngine.EventSystems;
 
 public class ChatPanel : MonoBehaviour
 {
+    [Tooltip("暂存的最大消息数")]
+    public int MaxChatMsgCount = 50;
     [SerializeField]
     private TextMeshProUGUI textTemplate;
     public TMP_SpriteAsset Emoji;
@@ -89,6 +91,14 @@ public class ChatPanel : MonoBehaviour
     {
         TextMeshProUGUI newtext = Instantiate(textTemplate, TextRect.content.transform);
 
+        ///设置最大消息数
+        while (chatList.Count >= MaxChatMsgCount)
+        {
+            Destroy(chatList.Dequeue());
+        }
+        chatList.Enqueue(newtext.gameObject);
+
+
         newtext.text = input;
 
         newtext.gameObject.SetActive(true);
@@ -145,4 +155,6 @@ public class ChatPanel : MonoBehaviour
     {
         caretPosition = Input.stringPosition;
     }
+
+    Queue<GameObject> chatList = new Queue<GameObject>();
 }
