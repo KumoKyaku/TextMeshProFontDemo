@@ -15,8 +15,6 @@ public class ChatPanel : MonoBehaviour
     public TMP_InputField Input;
 
     public UnityEngine.UI.ScrollRect TextRect;
-
-    UnityEngine.UI.VerticalLayoutGroup group;
     void Start () {
         
         if (Input && Input.textComponent.spriteAsset == null)
@@ -24,8 +22,6 @@ public class ChatPanel : MonoBehaviour
             Input.textComponent.spriteAsset = Emoji;
             Input.onSubmit.AddListener(InputSubmit);
         }
-
-        group = TextRect.content.GetComponent<VerticalLayoutGroup>();
 
     }
 	
@@ -97,13 +93,8 @@ public class ChatPanel : MonoBehaviour
 
         newtext.gameObject.SetActive(true);
 
-        var height = ReSizeFontSize(newtext, newtext.fontSize);
-
-
-
-        ///设置容器高度
-        ContentHeight += height;
-        TextRect.content.sizeDelta = new Vector2(0, ContentHeight);
+        ReSizeFontSize(newtext, newtext.fontSize);
+        
         ///解决verticalScrollbar设定值无法为0的问题
         StartCoroutine(SetVerticalScrollbarValue(0));
     }
@@ -113,8 +104,7 @@ public class ChatPanel : MonoBehaviour
     /// </summary>
     /// <param name="newtext"></param>
     /// <param name="fontsize"></param>
-    /// <returns>返回重设后高度</returns>
-    private float ReSizeFontSize(TextMeshProUGUI newtext,float fontsize)
+    private void ReSizeFontSize(TextMeshProUGUI newtext,float fontsize)
     {
         newtext.fontSize = fontsize;
 
@@ -136,12 +126,17 @@ public class ChatPanel : MonoBehaviour
 
         newtext.rectTransform.sizeDelta =
                 new Vector2(TextRect.content.rect.width, tempHeight);
-
-        return tempHeight;
     }
 
+    /// <summary>
+    /// 设置滚动条位置
+    /// <para>要延迟2帧才能正确生效，原因不明</para>
+    /// </summary>
+    /// <param name="v"></param>
+    /// <returns></returns>
     private IEnumerator SetVerticalScrollbarValue(int v)
     {
+        yield return new WaitForEndOfFrame();
         yield return new WaitForEndOfFrame();
         TextRect.verticalScrollbar.value = v;
     }
@@ -149,10 +144,5 @@ public class ChatPanel : MonoBehaviour
     public void LogCaretPosition()
     {
         caretPosition = Input.stringPosition;
-    }
-
-    public void Test(int a)
-    {
-        //Debug.Log(a);
     }
 }

@@ -5,3 +5,9 @@ TextMeshProFontDemo.csproj
 TextMeshProFontDemo.sln
 test_Data/
 test.exe
+Assets/adsfsdf.unity
+Assets/adsfsdf.unity.meta
+TextMeshProFontDemo.Editor.Plugins.csproj
+TextMeshProFontDemo.Editor.csproj
+TextMeshProFontDemo.Plugins.csproj
+UI.unitypackage
