@@ -13,7 +13,6 @@ public class ChatPanel : MonoBehaviour
     [SerializeField]
     private TextMeshProUGUI textTemplate;
     public TMP_SpriteAsset Emoji;
-    public TMP_SpriteAsset Emoji2X;
     public TMP_InputField Input;
 
     public UnityEngine.UI.ScrollRect TextRect;

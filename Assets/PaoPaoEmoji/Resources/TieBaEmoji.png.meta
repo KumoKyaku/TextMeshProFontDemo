@@ -1,60 +1,159 @@
 fileFormatVersion: 2
 guid: 9b5eb9b79908d984f89834ac8ef49552
-timeCreated: 1489382600
-licenseType: Free
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: TieBaEmoji_0
-    21300002: TieBaEmoji_1
-    21300004: TieBaEmoji_2
-    21300006: TieBaEmoji_3
-    21300008: TieBaEmoji_4
-    21300010: TieBaEmoji_5
-    21300012: TieBaEmoji_6
-    21300014: TieBaEmoji_7
-    21300016: TieBaEmoji_8
-    21300018: TieBaEmoji_9
-    21300020: TieBaEmoji_10
-    21300022: TieBaEmoji_11
-    21300024: TieBaEmoji_12
-    21300026: TieBaEmoji_13
-    21300028: TieBaEmoji_14
-    21300030: TieBaEmoji_15
-    21300032: TieBaEmoji_16
-    21300034: TieBaEmoji_17
-    21300036: TieBaEmoji_18
-    21300038: TieBaEmoji_19
-    21300040: TieBaEmoji_20
-    21300042: TieBaEmoji_21
-    21300044: TieBaEmoji_22
-    21300046: TieBaEmoji_23
-    21300048: TieBaEmoji_24
-    21300050: TieBaEmoji_25
-    21300052: TieBaEmoji_26
-    21300054: TieBaEmoji_27
-    21300056: TieBaEmoji_28
-    21300058: TieBaEmoji_29
-    21300060: TieBaEmoji_30
-    21300062: TieBaEmoji_31
-    21300064: TieBaEmoji_32
-    21300066: TieBaEmoji_33
-    21300068: TieBaEmoji_34
-    21300070: TieBaEmoji_35
-    21300072: TieBaEmoji_36
-    21300074: TieBaEmoji_37
-    21300076: TieBaEmoji_38
-    21300078: TieBaEmoji_39
-    21300080: TieBaEmoji_40
-    21300082: TieBaEmoji_41
-    21300084: TieBaEmoji_42
-    21300086: TieBaEmoji_43
-    21300088: TieBaEmoji_44
-    21300090: TieBaEmoji_45
-    21300092: TieBaEmoji_46
-    21300094: TieBaEmoji_47
-    21300096: TieBaEmoji_48
-    21300098: TieBaEmoji_49
-  serializedVersion: 4
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: TieBaEmoji_0
+  - first:
+      213: 21300002
+    second: TieBaEmoji_1
+  - first:
+      213: 21300004
+    second: TieBaEmoji_2
+  - first:
+      213: 21300006
+    second: TieBaEmoji_3
+  - first:
+      213: 21300008
+    second: TieBaEmoji_4
+  - first:
+      213: 21300010
+    second: TieBaEmoji_5
+  - first:
+      213: 21300012
+    second: TieBaEmoji_6
+  - first:
+      213: 21300014
+    second: TieBaEmoji_7
+  - first:
+      213: 21300016
+    second: TieBaEmoji_8
+  - first:
+      213: 21300018
+    second: TieBaEmoji_9
+  - first:
+      213: 21300020
+    second: TieBaEmoji_10
+  - first:
+      213: 21300022
+    second: TieBaEmoji_11
+  - first:
+      213: 21300024
+    second: TieBaEmoji_12
+  - first:
+      213: 21300026
+    second: TieBaEmoji_13
+  - first:
+      213: 21300028
+    second: TieBaEmoji_14
+  - first:
+      213: 21300030
+    second: TieBaEmoji_15
+  - first:
+      213: 21300032
+    second: TieBaEmoji_16
+  - first:
+      213: 21300034
+    second: TieBaEmoji_17
+  - first:
+      213: 21300036
+    second: TieBaEmoji_18
+  - first:
+      213: 21300038
+    second: TieBaEmoji_19
+  - first:
+      213: 21300040
+    second: TieBaEmoji_20
+  - first:
+      213: 21300042
+    second: TieBaEmoji_21
+  - first:
+      213: 21300044
+    second: TieBaEmoji_22
+  - first:
+      213: 21300046
+    second: TieBaEmoji_23
+  - first:
+      213: 21300048
+    second: TieBaEmoji_24
+  - first:
+      213: 21300050
+    second: TieBaEmoji_25
+  - first:
+      213: 21300052
+    second: TieBaEmoji_26
+  - first:
+      213: 21300054
+    second: TieBaEmoji_27
+  - first:
+      213: 21300056
+    second: TieBaEmoji_28
+  - first:
+      213: 21300058
+    second: TieBaEmoji_29
+  - first:
+      213: 21300060
+    second: TieBaEmoji_30
+  - first:
+      213: 21300062
+    second: TieBaEmoji_31
+  - first:
+      213: 21300064
+    second: TieBaEmoji_32
+  - first:
+      213: 21300066
+    second: TieBaEmoji_33
+  - first:
+      213: 21300068
+    second: TieBaEmoji_34
+  - first:
+      213: 21300070
+    second: TieBaEmoji_35
+  - first:
+      213: 21300072
+    second: TieBaEmoji_36
+  - first:
+      213: 21300074
+    second: TieBaEmoji_37
+  - first:
+      213: 21300076
+    second: TieBaEmoji_38
+  - first:
+      213: 21300078
+    second: TieBaEmoji_39
+  - first:
+      213: 21300080
+    second: TieBaEmoji_40
+  - first:
+      213: 21300082
+    second: TieBaEmoji_41
+  - first:
+      213: 21300084
+    second: TieBaEmoji_42
+  - first:
+      213: 21300086
+    second: TieBaEmoji_43
+  - first:
+      213: 21300088
+    second: TieBaEmoji_44
+  - first:
+      213: 21300090
+    second: TieBaEmoji_45
+  - first:
+      213: 21300092
+    second: TieBaEmoji_46
+  - first:
+      213: 21300094
+    second: TieBaEmoji_47
+  - first:
+      213: 21300096
+    second: TieBaEmoji_48
+  - first:
+      213: 21300098
+    second: TieBaEmoji_49
+  externalObjects: {}
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -62,6 +161,8 @@ TextureImporter:
     linearTexture: 0
     fadeOut: 0
     borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
     mipMapFadeDistanceStart: 1
     mipMapFadeDistanceEnd: 3
   bumpmap:
@@ -70,6 +171,10 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -77,10 +182,13 @@ TextureImporter:
   textureFormat: 1
   maxTextureSize: 2048
   textureSettings:
-    filterMode: -1
-    aniso: -1
-    mipBias: -1
-    wrapMode: 1
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -89,41 +197,59 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
   textureType: 8
   textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
   platformSettings:
-  - buildTarget: DefaultTexturePlatform
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
+    resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-  - buildTarget: Standalone
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Standalone
     maxTextureSize: 2048
+    resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-  - buildTarget: Windows Store Apps
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
     maxTextureSize: 2048
+    resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -139,7 +265,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 02305410000000000800000000000000
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: TieBaEmoji_1
       rect:
@@ -152,7 +286,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 22305410000000000800000000000000
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: TieBaEmoji_2
       rect:
@@ -165,7 +307,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 42305410000000000800000000000000
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: TieBaEmoji_3
       rect:
@@ -178,7 +328,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 62305410000000000800000000000000
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: TieBaEmoji_4
       rect:
@@ -191,7 +349,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 82305410000000000800000000000000
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: TieBaEmoji_5
       rect:
@@ -204,7 +370,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: a2305410000000000800000000000000
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: TieBaEmoji_6
       rect:
@@ -217,7 +391,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c2305410000000000800000000000000
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: TieBaEmoji_7
       rect:
@@ -230,7 +412,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: e2305410000000000800000000000000
+      internalID: 21300014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: TieBaEmoji_8
       rect:
@@ -243,7 +433,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 03305410000000000800000000000000
+      internalID: 21300016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: TieBaEmoji_9
       rect:
@@ -256,7 +454,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 23305410000000000800000000000000
+      internalID: 21300018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: TieBaEmoji_10
       rect:
@@ -269,7 +475,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 43305410000000000800000000000000
+      internalID: 21300020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: TieBaEmoji_11
       rect:
@@ -282,7 +496,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 63305410000000000800000000000000
+      internalID: 21300022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: TieBaEmoji_12
       rect:
@@ -295,7 +517,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 83305410000000000800000000000000
+      internalID: 21300024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: TieBaEmoji_13
       rect:
@@ -308,7 +538,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: a3305410000000000800000000000000
+      internalID: 21300026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: TieBaEmoji_14
       rect:
@@ -321,7 +559,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c3305410000000000800000000000000
+      internalID: 21300028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: TieBaEmoji_15
       rect:
@@ -334,7 +580,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: e3305410000000000800000000000000
+      internalID: 21300030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: TieBaEmoji_16
       rect:
@@ -347,7 +601,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 04305410000000000800000000000000
+      internalID: 21300032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: TieBaEmoji_17
       rect:
@@ -360,7 +622,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 24305410000000000800000000000000
+      internalID: 21300034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: TieBaEmoji_18
       rect:
@@ -373,7 +643,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 44305410000000000800000000000000
+      internalID: 21300036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: TieBaEmoji_19
       rect:
@@ -386,7 +664,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 64305410000000000800000000000000
+      internalID: 21300038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: TieBaEmoji_20
       rect:
@@ -399,7 +685,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 84305410000000000800000000000000
+      internalID: 21300040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: TieBaEmoji_21
       rect:
@@ -412,7 +706,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: a4305410000000000800000000000000
+      internalID: 21300042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: TieBaEmoji_22
       rect:
@@ -425,7 +727,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c4305410000000000800000000000000
+      internalID: 21300044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: TieBaEmoji_23
       rect:
@@ -438,7 +748,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: e4305410000000000800000000000000
+      internalID: 21300046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: TieBaEmoji_24
       rect:
@@ -451,7 +769,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 05305410000000000800000000000000
+      internalID: 21300048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: TieBaEmoji_25
       rect:
@@ -464,7 +790,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 25305410000000000800000000000000
+      internalID: 21300050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: TieBaEmoji_26
       rect:
@@ -477,7 +811,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 45305410000000000800000000000000
+      internalID: 21300052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: TieBaEmoji_27
       rect:
@@ -490,7 +832,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 65305410000000000800000000000000
+      internalID: 21300054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: TieBaEmoji_28
       rect:
@@ -503,7 +853,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 85305410000000000800000000000000
+      internalID: 21300056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: TieBaEmoji_29
       rect:
@@ -516,7 +874,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: a5305410000000000800000000000000
+      internalID: 21300058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: TieBaEmoji_30
       rect:
@@ -529,7 +895,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c5305410000000000800000000000000
+      internalID: 21300060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: TieBaEmoji_31
       rect:
@@ -542,7 +916,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: e5305410000000000800000000000000
+      internalID: 21300062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: TieBaEmoji_32
       rect:
@@ -555,7 +937,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 06305410000000000800000000000000
+      internalID: 21300064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: TieBaEmoji_33
       rect:
@@ -568,7 +958,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 26305410000000000800000000000000
+      internalID: 21300066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: TieBaEmoji_34
       rect:
@@ -581,7 +979,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 46305410000000000800000000000000
+      internalID: 21300068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: TieBaEmoji_35
       rect:
@@ -594,7 +1000,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 66305410000000000800000000000000
+      internalID: 21300070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: TieBaEmoji_36
       rect:
@@ -607,7 +1021,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 86305410000000000800000000000000
+      internalID: 21300072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: TieBaEmoji_37
       rect:
@@ -620,7 +1042,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: a6305410000000000800000000000000
+      internalID: 21300074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: TieBaEmoji_38
       rect:
@@ -633,7 +1063,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c6305410000000000800000000000000
+      internalID: 21300076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: TieBaEmoji_39
       rect:
@@ -646,7 +1084,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: e6305410000000000800000000000000
+      internalID: 21300078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: TieBaEmoji_40
       rect:
@@ -659,7 +1105,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 07305410000000000800000000000000
+      internalID: 21300080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: TieBaEmoji_41
       rect:
@@ -672,7 +1126,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 27305410000000000800000000000000
+      internalID: 21300082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: TieBaEmoji_42
       rect:
@@ -685,7 +1147,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 47305410000000000800000000000000
+      internalID: 21300084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: TieBaEmoji_43
       rect:
@@ -698,7 +1168,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 67305410000000000800000000000000
+      internalID: 21300086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: TieBaEmoji_44
       rect:
@@ -711,7 +1189,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 87305410000000000800000000000000
+      internalID: 21300088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: TieBaEmoji_45
       rect:
@@ -724,7 +1210,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: a7305410000000000800000000000000
+      internalID: 21300090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: TieBaEmoji_46
       rect:
@@ -737,7 +1231,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c7305410000000000800000000000000
+      internalID: 21300092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: TieBaEmoji_47
       rect:
@@ -750,7 +1252,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: e7305410000000000800000000000000
+      internalID: 21300094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: TieBaEmoji_48
       rect:
@@ -763,7 +1273,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 08305410000000000800000000000000
+      internalID: 21300096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: TieBaEmoji_49
       rect:
@@ -776,9 +1294,79 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 28305410000000000800000000000000
+      internalID: 21300098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      TieBaEmoji_28: 21300056
+      TieBaEmoji_2: 21300004
+      TieBaEmoji_31: 21300062
+      TieBaEmoji_6: 21300012
+      TieBaEmoji_35: 21300070
+      TieBaEmoji_42: 21300084
+      TieBaEmoji_11: 21300022
+      TieBaEmoji_10: 21300020
+      TieBaEmoji_17: 21300034
+      TieBaEmoji_43: 21300086
+      TieBaEmoji_33: 21300066
+      TieBaEmoji_19: 21300038
+      TieBaEmoji_24: 21300048
+      TieBaEmoji_38: 21300076
+      TieBaEmoji_41: 21300082
+      TieBaEmoji_20: 21300040
+      TieBaEmoji_26: 21300052
+      TieBaEmoji_13: 21300026
+      TieBaEmoji_21: 21300042
+      TieBaEmoji_1: 21300002
+      TieBaEmoji_18: 21300036
+      TieBaEmoji_36: 21300072
+      TieBaEmoji_4: 21300008
+      TieBaEmoji_0: 21300000
+      TieBaEmoji_7: 21300014
+      TieBaEmoji_32: 21300064
+      TieBaEmoji_34: 21300068
+      TieBaEmoji_45: 21300090
+      TieBaEmoji_9: 21300018
+      TieBaEmoji_23: 21300046
+      TieBaEmoji_16: 21300032
+      TieBaEmoji_47: 21300094
+      TieBaEmoji_39: 21300078
+      TieBaEmoji_40: 21300080
+      TieBaEmoji_3: 21300006
+      TieBaEmoji_5: 21300010
+      TieBaEmoji_22: 21300044
+      TieBaEmoji_14: 21300028
+      TieBaEmoji_48: 21300096
+      TieBaEmoji_8: 21300016
+      TieBaEmoji_29: 21300058
+      TieBaEmoji_30: 21300060
+      TieBaEmoji_37: 21300074
+      TieBaEmoji_49: 21300098
+      TieBaEmoji_15: 21300030
+      TieBaEmoji_44: 21300088
+      TieBaEmoji_46: 21300092
+      TieBaEmoji_27: 21300054
+      TieBaEmoji_12: 21300024
+      TieBaEmoji_25: 21300050
   spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

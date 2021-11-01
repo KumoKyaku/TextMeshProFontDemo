@@ -22,29 +22,29 @@ public class EmojiInput : MonoBehaviour
 
     // Use this for initialization
     void Start () {
-        if (emojiAsset && emojiAsset.spriteInfoList.Count > 0)
+        if (emojiAsset && emojiAsset.spriteGlyphTable.Count > 0)
         {
-            float x = emojiAsset.spriteInfoList[0].width;
-            float y = emojiAsset.spriteInfoList[0].height;
+            float x = emojiAsset.spriteGlyphTable[0].glyphRect.width;
+            float y = emojiAsset.spriteGlyphTable[0].glyphRect.height;
             Panel.cellSize = new Vector2(x, y);
             (Panel.transform as RectTransform).sizeDelta = new Vector2(column * x, row * y);
 
 
-            foreach (var item in emojiAsset.spriteInfoList)
+            foreach (var item in emojiAsset.spriteGlyphTable)
             {
                 GameObject ele = Instantiate(emojiElementTemplate);
                 RectTransform trans = ele.GetComponent<RectTransform>();
                 trans.SetParent(Panel.transform);
                 trans.localPosition = Vector3.zero;
                 trans.localScale = Vector3.one;
-                trans.sizeDelta = new Vector2(item.width, item.height);
+                trans.sizeDelta = new Vector2(item.glyphRect.width, item.glyphRect.width);
                 Image img = ele.GetComponent<Image>();
                 img.sprite = item.sprite;
 
                 Button but = ele.GetComponent<Button>();
                 but.onClick.AddListener(() => 
                 {
-                    Submit.Invoke("<sprite="+ item.id+">");
+                    Submit.Invoke("<sprite="+ item.index+">");
                     Panel.gameObject.SetActive(false);
 
                 });
